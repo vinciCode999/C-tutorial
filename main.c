@@ -2,18 +2,9 @@
 
 int main(){
   /*
-    character combination consisting of a backslash
-    followed by a letter o combination of digits
-    this specify action within a line or string of text e.g.
-    \n = new line
-    \lt = tab
-   */
-
-   printf("hello john \n");
-   printf("do you like bananas?\n\n");
-
-   printf("1\t2\t3\n4\t5\t6\n7\t8\t9 \n\n");
-
-   printf("\"nothing is as good or as bad as it seems\"-Morgan Housel");
+    Variable = Allocated space in memory to store a value.
+    we refer to the variable's name to access the stored value.
+    That variable now behaves as if it was the value it contains
+  */
   return 0;
 }
