@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 
 int main(){
   // switch a more efficient alternative to using many "else if" statements allow 
@@ -8,10 +9,11 @@ int main(){
 
   printf("Enter grade: ");
   scanf("%c", &grade);
+  grade = toupper(grade);
 
   switch(grade){
     case 'A':
-      printf("Perefect");
+      printf("Perfect");
       break;
     case 'B':
       printf("you did good!\n");
