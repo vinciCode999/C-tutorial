@@ -1,1 +1,2 @@
-printf(firstStudent.GPA);
+   printf("\nguess:");
+    scanf(" %c", &guess);
