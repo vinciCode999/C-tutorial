@@ -33,5 +33,9 @@ int main() {
 
   z = x >> 1; //formula 6/2(n=number of shift in ourcase 1), 6 based on our example
   printf("right bitwise: %d\n", z);
+
+  // Operation	Binary Effect	                  Math Effect
+  // X << N	    Shift bits left, fill 0	        X * 2^N
+  // X >> N	    Shift bits right, drop bits	    X / 2^N (int)
   return 0;
 }
